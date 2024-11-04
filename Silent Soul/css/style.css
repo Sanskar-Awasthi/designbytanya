@@ -1,0 +1,340 @@
+body {
+    background-color: #F5F5F5;
+}
+/* .nav {
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  } */
+
+  .nav-link:hover {
+    color: white;
+    text-decoration: underline; 
+}
+
+.navbar-text {
+    display: flex;
+    align-items: center;
+    width: min-content;
+    color: white;
+    text-transform: uppercase;
+}
+
+body.contact .navbar{
+    background-color: black;
+}
+
+body.about .navbar{
+    background-color: black;
+}
+
+body.about {
+    background-color: black;
+}
+
+body.our-services .navbar{
+    background-color: black;
+}
+
+.vertical-line {
+    height: 98px;
+    width: 2px;
+    background-color: white;
+    margin: 0px 23px;
+}
+
+.navbar-brand {
+    margin-right: .25rem;
+}
+
+.navbar .navbar-brand {
+    max-width: 10em;
+}
+
+img#logo {
+    width: auto;
+    margin-left: 39px;
+}
+
+li.nav-item {
+    font-size: small;
+    padding-right: 10px;
+}
+
+.nav-link{
+    color: white;
+}
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
+
+/* Custom CSS for carousel on larger screens */
+/* #carouselExampleCaptions {
+    height: 100vh; 
+} */
+/* .carousel{
+    top: 0;
+    width:100%;
+    position: absolute;
+} */
+
+#carouselExampleCaptions {
+    object-fit: cover;
+    /* height: 100vh; */
+    width:100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+    padding-top:70px;
+}
+
+/* Group social links and contact section together */
+.footer-social-contact {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+/* Social links styling */
+.footer-social ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-social ul li {
+    margin-right: 15px; 
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-social i {
+    margin-right: 8px;
+}
+
+/* Footer contact section styling */
+.footer-contact {
+    margin-top: 20px; 
+}
+
+.footer-contact ul li a {
+    color:white;
+    text-decoration: auto;
+}
+
+.footer-logo img {
+    max-width: 150px;
+}
+
+/* .footer-links ul, .footer-contact ul {
+    list-style-type: none;
+    padding: 0;
+} */
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: small;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+}
+
+.footer-container h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links h4 {
+    text-align: center;
+}
+
+.footer-container > div {
+    flex: 1;
+    margin: 10px;
+}
+
+.navbrand #logoFooter img{
+width: 220px;
+}
+.our-story {
+    position: relative;
+    background-image: url('https://headhoppers.com/img/Pics/HHSPL-Website_Home_OurStory.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust height as needed */
+    color: black; /* Text color */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0); /* Semi-transparent overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.know-more-button {
+    padding: 10px 20px;
+    background-color: #ff6600; /* Button color */
+    color: white; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.container-text {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar {
+    padding: 0.5rem 1rem; /* Reduce padding to make the header shorter */
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: transparent;
+}
+body.contact .navbar{
+    position:relative;
+}
+
+img#logo {
+    width: 180px;
+    height: 60px; /* Reduce logo height */
+    margin-left: 20px; /* Adjust margin if needed */
+}
+
+.navbar-text {
+    font-size: 0.8rem; /* Adjust font size if you want smaller text */
+}
+
+.vertical-line {
+    height: 60px; /* Match the height of the logo */
+    width: 2px;
+    background-color: white;
+    margin: 0px 10px; /* Adjust margin as needed */
+}
+
+#logoFooter {
+    width: 360px;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        margin-right: .5rem;
+    }
+
+    .navbar .navbar-brand {
+        max-width: 100%;
+    }
+
+    .navbar-text {
+        width: auto;
+        margin-left: 1rem;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    img#logo {
+        margin-left: 0;
+        width: 70px; /* Adjust the width to fit better on small screens */
+    }
+
+    li.nav-item {
+        padding-right: 10px;
+        font-size: medium;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+    }
+
+    /* Adjust the toggle button */
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .navbar-text {
+        display: flex;
+        align-items: center;
+        width: min-content;
+    }
+
+    /* Custom CSS for carousel on smaller screens */
+    #carouselExampleCaptions .carousel-inner {
+        max-height: 110px !important; /* Forces height to 110px for smaller screens */
+    }
+
+    #carouselExampleCaptions .carousel-item img {
+        object-fit: cover;
+        height: 100% !important;
+        width: 100%;
+    }
+
+}
+
+.carousel-item img {
+    max-height: 100vh;
+}
+
+a.know-more {
+    margin: 20px;
+    color: #000;
+    background-color: #A9A9A9 !important;
+    border-color: #A9A9A9 !important;
+}
